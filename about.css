@@ -1,0 +1,70 @@
+#navigation {
+  text-transform: lowercase;
+  padding-bottom: 20px;
+  font-size: 20px;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+  background-color: white;
+}
+
+#top1, #top2, #top3, #top4 {
+  margin-right: 60px;
+}
+
+#top1:link, #top1:visited, #top2:link, #top2:visited, #top3:link, #top3:visited, #top4:link, #top4:visited {
+  color: #3d5a80;
+}
+
+#top1:hover, #top2:hover, #top3:hover, #top4:hover {
+  color: #98c1d9;
+  border-bottom: 1px solid #ee6c4d;
+  padding-bottom: 3px;
+  transition: 0.6s;
+}
+
+#about {
+  height: 800px;
+}
+
+#title {
+  padding-bottom: 20px;
+}
+
+#teacher-image {
+  padding-right: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+#quote {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+#intro {
+  text-align: center;
+  padding-top: 70px;
+}
+
+#intro-title {
+  font-family: 'Noto Serif', serif;
+  font-size: 55px;
+  color: #3d5a80;
+  font-weight: bold;
+}
+
+#video {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#copyright {
+  color: black;
+  font-size: 15px;
+}

@@ -1,0 +1,77 @@
+#navigation {
+  text-transform: lowercase;
+  padding-bottom: 20px;
+  font-size: 20px;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+  background-color: white;
+}
+
+#top1, #top2, #top3, #top4 {
+  margin-right: 60px;
+}
+
+#top1:link, #top1:visited, #top2:link, #top2:visited, #top3:link, #top3:visited, #top4:link, #top4:visited {
+  color: #3d5a80;
+}
+
+#top1:hover, #top2:hover, #top3:hover, #top4:hover {
+  color: #98c1d9;
+  border-bottom: 1px solid #ee6c4d;
+  padding-bottom: 3px;
+  transition: 0.6s;
+}
+
+.contact {
+  display: block;
+  text-align: center;
+}
+
+label {
+  display: block;
+  float: left;
+  padding-top: 1px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px 12px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #EEEEEE;
+  resize: none;
+  line-height: 1.5;
+  color: grey;
+}
+
+input {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 5px 0;
+  background-color: #EEEEEE;
+  border: none;
+  resize: none;
+  text-align: left;
+}
+
+#submit {
+  background-color: #3d5a80;
+  color: white;
+  text-align: center;
+  width: 20%;
+  float: right;
+}
+
+#submit:hover {
+  background-color: #ee6c4d;
+  transition: 0.4s;
+}
+
+#copyright {
+  color: black;
+  font-size: 15px;
+}

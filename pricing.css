@@ -1,0 +1,84 @@
+body {
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+#navigation {
+  text-transform: lowercase;
+  padding-bottom: 20px;
+  font-size: 20px;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+  background-color: white;
+}
+
+#top1, #top2, #top3, #top4 {
+  margin-right: 60px;
+}
+
+#top1:link, #top1:visited, #top2:link, #top2:visited, #top3:link, #top3:visited, #top4:link, #top4:visited {
+  color: #3d5a80;
+}
+
+#top1:hover, #top2:hover, #top3:hover, #top4:hover {
+  color: #98c1d9;
+  border-bottom: 1px solid #ee6c4d;
+  padding-bottom: 3px;
+  transition: 0.6s;
+}
+
+#special-main {
+  border-color: #ee6c4d;
+  shadow: 0.2;
+}
+
+#special {
+  color: white;
+  background-color: #ee6c4d;
+  border-color: #ee6c4d;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #ee6c4d;
+}
+
+a:hover {
+  color: #98c1d9;
+  transition: 0.6s;
+}
+
+#acknowledgements, #contactlink {
+  line-height: 0.8;
+}
+
+p {
+  color: grey;
+}
+
+#copyright {
+  color: black;
+  font-size: 15px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
